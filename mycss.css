@@ -1,0 +1,75 @@
+
+*{
+    cursor: pointer;
+}
+body{
+    background-image: url("lib2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.cbx{
+    width: 50px;
+    height: 180px;
+    background-color:rgba(253, 247, 197, 0.507);
+    display: block;
+    margin: 20px;
+}
+h4{
+    text-align: center;
+    padding: 30px;}
+ q{
+    font-style: italic;
+    color: black;
+    font-family: Georgia;
+}
+
+#title{
+    color: black;
+    background-image: linear-gradient(to right,white,rgb(255, 246, 125),white);
+    text-align:center;
+    margin-top: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color:  black;
+    border-radius: 12px;
+    padding: 6px;
+    display: block;
+    font-family: Monaco ;
+}
+.home{
+    font-size: medium;
+    color: white;
+    font-size: large;
+    
+}
+
+.footer{
+    background-color: rgb(38, 38, 41);
+    margin-top: 250px;
+    color: rgba(236, 231, 231, 0.925);
+    text-align: center;
+    
+
+    
+}
+.footer .outer-footer{
+    background-color: rgb(3, 2, 2);
+    padding: 10px;   
+}
+
+.my a{
+    border: 1px solid;
+    padding: 4px;
+    margin: 5px;
+}
+
+.item  {
+width: 300px;
+height: 300px;
+object-fit: cover;}
+   
+  

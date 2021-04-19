@@ -1,0 +1,130 @@
+
+body{
+    background-color: rgb(27, 27, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-image: url("../lib2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.header{
+    text-align: end;
+    font-size: medium;
+   }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.header ul li{
+    display: inline-block;
+    margin: 8px;
+    list-style: none;
+}
+.header ul li a {
+  color: black;
+    text-decoration: none;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(27, 27, 25);
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+}
+
+.header ul li a:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+#title{
+    color: black;
+    background-image: linear-gradient(to right,white,rgb(255, 246, 125),white);
+
+    text-align:center;
+    margin: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color:  black;
+    border-radius: 10px;
+    padding: 6px;
+}
+.home{
+    font-size: medium;
+    color: rgb(240, 228, 228);
+
+    text-align: center;
+    
+    
+}
+.home.form1{
+   
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 250px;
+    
+        
+}
+.fname{
+  margin-bottom: 23px;
+}
+
+.form1 input[type="text"],.form1 input[type="email"],.form1 input[type="tel"],.form1 input[type="password"]{
+    border: 0px;
+    background: white;
+    border: 1px solid;
+    border-radius: 24px;
+    border-color: black;   
+    padding: 10px;
+    color: black;
+    font-size: medium;
+    
+    
+ }
+ .form1 input[type="button"]{
+     margin: 50px;
+     width: 170px;
+     border: 1px solid;
+    border-radius: 5px;
+    background: rgb(255, 246, 125);
+    border-color: black;   
+    padding: 5px;
+    font-size: larger;
+    color: black; 
+    font-style: oblique;
+
+ }
+
+ .form1 input[type="button"]:hover
+ {
+     background-color:rgb(245, 241, 4) ;
+     color:black ;
+ }
+ .footer{
+    background-color: rgb(38, 38, 41);
+    margin-top: 470px;
+    color: rgba(236, 231, 231, 0.925);
+    text-align: center;
+    
+
+    
+}
+.footer .outer-footer{
+    background-color: rgb(3, 2, 2);
+    padding: 10px;   
+}
+.my a{
+    border: 1px solid;
+    padding: 4px;
+    margin: 5px;
+}
+
+
+   
+  

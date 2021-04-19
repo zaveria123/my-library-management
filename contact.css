@@ -1,0 +1,122 @@
+
+body{
+    background-color: rgb(27, 27, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-image: url("lib2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+
+.last{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+   
+}
+.last a{
+    color: rgb(0, 0, 0);
+    margin-top: 1px;
+}
+.last a:hover{
+    color: rgb(245, 241, 4);
+    margin-top: 1px;
+}
+
+
+
+#title{
+    color: black;
+    background-image: linear-gradient(to right,white,rgb(255, 246, 125),white);
+    font-family: Monaco ;
+    text-align:center;
+    margin: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color:  black;
+    
+    padding: 6px;
+}
+
+
+
+.form1 input[type="text"],.form1 input[type="email"]{
+    border: 0px;
+    background: white;
+    border: 1px solid;
+    
+    border-color: black;   
+    padding: 8px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: medium;
+    text-align: center;
+    
+ }
+ .ta{
+    border: 0px;
+    background: white;
+    border: 1px solid;
+    
+    border-color: black;   
+    padding: 8px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: medium;
+    text-align: center;
+
+ }
+ .cbx{
+   width: 300px;
+    height: 350px;
+    background-color:rgba(253, 247, 197, 0.507);
+    text-align: center;
+    margin: 20px;}
+
+ .form1 input[type="submit"]{
+     margin-top: 20px;
+     margin-left: 20px;
+     width: 130px;
+     border: 1px solid;
+   
+    background: rgb(255, 246, 125);
+    border-color: black;   
+    padding: 3px;
+    font-size: larger;
+    color: black; 
+    font-style: normal;
+
+ }
+
+ .form1 input[type="submit"]:hover
+ {
+     background-color:rgb(245, 241, 4) ;
+     color:black ;
+ }
+ .footer{
+    background-color: rgb(38, 38, 41);
+    margin-top: 250px;
+    color: rgba(236, 231, 231, 0.925);
+    text-align: center;}
+    
+#hd1{
+
+    margin-top: 20px;
+    padding: 10px
+}
+.outer-footer{
+    background-color: rgb(3, 2, 2);
+    padding: 10px;   
+}
+.my a{
+    border: 1px solid;
+    padding: 4px;
+    margin: 5px;
+}
+   
+  

@@ -1,0 +1,96 @@
+*{
+    cursor: pointer;
+}
+body{
+    background-color: rgb(27, 27, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-image: url("lib2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+#title{
+    color: black;
+    background-image: linear-gradient(to right,white,rgb(255, 246, 125),white);
+    font-family: Monaco ;
+    text-align:center;
+    margin: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color:  black;
+    
+    padding: 6px;
+}
+.home{
+    font-size: medium;
+    color: rgb(240, 228, 228);
+
+    text-align: center;
+    
+    
+}
+.home.form1{
+   
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 250px;
+    
+        
+}
+.fname{
+  margin-bottom: 23px;
+}
+
+.form1 input[type="text"],.form1 input[type="email"],.form1 input[type="tel"],.form1 input[type="password"]{
+    border: 0px;
+    background: white;
+    border: 1px solid;
+    width: 400px;
+    border-color: black;   
+    padding: 8px;
+    color: black;
+    font-size: medium;
+    
+    
+ }
+ .form1 input[type="submit"]{
+     margin: 50px;
+     width: 170px;
+     border: 1px solid;
+    border-radius: 5px;
+    background: rgb(255, 246, 125);
+    border-color: black;   
+    padding: 5px;
+    font-size: larger;
+    color: black; 
+    font-style: oblique;
+
+ }
+
+ .form1 input[type="submit"]:hover
+ {
+     background-color:rgb(245, 241, 4) ;
+     color:black ;
+ }
+ .footer{
+    background-color: rgb(38, 38, 41);
+    margin-top: 250px;
+    color: rgba(236, 231, 231, 0.925);
+    text-align: center;    
+}
+.outer-footer{
+    background-color: rgb(3, 2, 2);
+    padding: 10px;   
+}
+.my a{
+    border: 1px solid;
+    padding: 4px;
+    margin: 5px;
+}
+   
+  
